@@ -1,0 +1,46 @@
+/* termos de privacidade */
+:root{
+    --primaria: #03e58b;
+}
+
+body.privacidade {
+background-color: var(--primaria);
+
+
+}
+
+.nav{
+padding: 20px;
+text-align: center;
+align-items: center;
+}
+/*---------------------------*/
+
+/*painel de entregas*/
+
+/*----------------------------*/
+
+/* Cadastro e Login */
+
+/*----------------------------*/
+
+/*Status de entrega do adm*/
+
+/*----------------------------*/
+
+/*Status de entrega do adm*/
+
+/*----------------------------*/
+
+/*painel do cliente*/
+
+/*----------------------------*/
+
+/*Dashboard.do.E-commerce*/
+
+/*----------------------------*/
+
+/*enviar produto*/
+
+/*----------------------------*/
+
