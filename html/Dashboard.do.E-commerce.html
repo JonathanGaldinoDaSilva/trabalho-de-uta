@@ -3,30 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
     <title>E-Commerce Dashboard</title>
 </head>
-<body>
-    <h4>Produtos</h4>
-    <h4>Carrinho</h4>
-    <h4>Dark/lite</h4>
+<body class="corpo">
+
+
+    <aside class="barraLateral">
+    <h4 class="barra">Produtos</h4><br>
+    <h4 class="barra">Carrinho</h4><br>
+    <h4 class="barra">Dark/lite</h4>
+    </aside>
+
+    <main class="conteudo">
+
+    <div class="titulo">
     <h2>E-Commerce Dashboard</h2>
-    <p>Home | Sobre | Contato</p> <input placeholder="search in site">
+    </div>
 
-    <h1>Produtos em Destaque (2)</h1>
+    <div class="cantodePesquisa">
+    <a class="acessarOutros">Home</a>
+    <a class="acessarOutros">Sobre</a>
+    <a class="acessarOutros">Contato</a>
 
-    <section id="produtos" class="container">
+     <input placeholder="search in site" class="pesquisar">
+    </div>
+
+    <section id="produtos" class="secao">
+
+<h1 class="Destaque">Produtos em Destaque (2)</h1>
+
         <div class="card">
-            <h5>produto 1 (Espaço pra a imagem)</h5>
-            <p>Teclado Mecânico Click+</p>
-            <h5>R$ 179,50 • Switch Blue</h5>
+           <div>
+            <h5 class="Destaque">R$ 179,50 • Switch Blue</h5>
+            <img class="right"
+            src="../quadrado.png"
+            alt="Produtos"
+            width="150"
+            >
+            <p>Site com CSS+ JS + HTML</p>
         </div>
-<br>
-        <div class="card">
-            <h5>produto 2 (Espaço pra imagem)</h5>
-            <p>Monitor LED 24” VisioBright</p>
-            <h5>R$ 529,00 • Full HD 75Hz</h5>
+
+           <div>
+            <h5 class="Destaque">R$ 179,50 • Switch Blue</h5>
+            <img class="right"
+            src="../quadrado.png"
+            alt="Produtos"
+            width="150"
+            >
+            <p>Site com CSS+ JS + HTML</p>
         </div>
+        </div>
+
     </section>
+
+</main>
 
 </body>
 </html>

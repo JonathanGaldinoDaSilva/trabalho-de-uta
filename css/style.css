@@ -2,17 +2,87 @@
 /*painel de entregas*/
 
 /*----------------------------*/
-
 /* Cadastro e Login */
 
+/* lite */
+:root {
+
+  --primaria: #4da8ff;
+  --secundaria: #0077cc;
+  --escuro: #008de5;
+
+  --claro: #818080;
+  --texto: #fefefe;
+
+  --fundo-card: rgba(103, 98, 98, 0.951);
+  --fundo-header: rgba(14, 249, 46, 0.734);
+  --fundo-form: #0778ef;
+
+  --sombra: 0 8px 30px rgb(255, 255, 255);
+
+  --radius: 20px;
+
+}
+
+.comeco{
+background-color:var(--escuro);
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+}
+
+formCadastro{
+display: table;
+flex-direction: column;
+}
+
+.cadaUm{
+display: flex;
+justify-content: end;
+
+};
+
+.ladeBaixo{
+
+}
+/* Dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primaria: #1c7ac8;
+    --secundaria: #5f6a71;
+    --escuro: #19bfe1;
+
+    --claro: #ffffff;
+    --texto: #ffffff;
+
+    --fundo-card: rgba(1, 0, 0, 0.9);
+    --fundo-header: rgba(0, 0, 0, 0.9);
+    --fundo-form: #000000;
+
+    --sombra: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --radius: 20px;
+  }
+}
+
+.ladeBaixo{
+
+
+}
+
+
 /*----------------------------*/
 
 /*Status de entrega do adm*/
+.homez{
+background-color: #005f99;
 
-/*----------------------------*/
+}
 
-/*Status de entrega do adm*/
-
+.bodi{
+color: #005f99;
+}
 /*----------------------------*/
 
 /*painel do cliente*/
@@ -20,7 +90,97 @@
 /*----------------------------*/
 
 /*Dashboard.do.E-commerce*/
+.barraLateral{
+background-color: var(--primaria);
 
+}
+
+.corpo{
+display: flex;
+    margin: 0;
+    background-color: #005f99;
+}
+
+.cantodePesquisa{
+display: flex;
+justify-content: end;
+}
+
+.titulo{
+display: flex;
+justify-content: center;
+color: var(--texto);
+}
+
+.barraLateral{
+    width: 110px;
+    min-height: 100vh;
+    background-color: #0A608B;
+     color: white;
+    padding: 20px;
+}
+
+.card{
+display: flex;
+justify-content: center;
+}
+
+produtos{
+display: flex;
+justify-content: space-between;
+}
+
+.conteudo{
+    flex: 1;
+
+
+}
+
+.Destaque{
+color: var(--texto);
+display: flex;
+justify-content: center;
+
+}
+
+.barra{
+  color: var(--btn-text);
+  text-decoration: none;
+  padding: 10px 16px;
+  background-color: var(--btn-bg);
+  border-radius: 9px;
+  border: solid 3px var(--btn-border);
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+a:hover,
+button:hover {
+  transform: scale(1.03);
+}
+
+.secao{
+ min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 20px 40px;
+  background: linear-gradient(
+    rgba(0, 174, 255, 0.85),
+    rgba(10, 70, 100, 0.988)
+  );
+
+
+
+
+}
 /*----------------------------*/
 
 /*enviar produto*/
@@ -237,7 +397,46 @@ flex-direction: column;
     border-width: 3px;
     text-align: center;
 padding: 10px;
-
-
-
 }
+/*
+.container{
+width: 400px;
+height: 400px 30%;
+color: var(--claro);
+padding: 0;
+box-sizing: border-box;
+};
+
+
+/*
+
+.right {
+/* Container que envolve a parte superior do site */
+.container-principal {
+  display: flex;
+  justify-content: space-between; /* Joga o conteúdo normal para a esquerda e a .right para a direita */
+  align-items: flex-start; /* Mantém os itens alinhados ao topo */
+  padding: 20px;
+}
+
+/* A sua classe .right organizando as duas imagens lado a lado */
+.right {
+  display: flex;
+  gap: 15px; /* Espaçamento entre os dois produtos */
+}
+
+/* Estilo para deixar as imagens dos produtos com um bom aspecto */
+.right .produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+
+.right .produto img {
+  width: 100%;
+  border-radius: 8px; /* Bordas arredondadas (opcional) */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombreado leve (opcional) */
+}
+
+
