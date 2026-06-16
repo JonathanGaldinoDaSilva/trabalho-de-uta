@@ -9,7 +9,7 @@
 
   --primaria: #4da8ff;
   --secundaria: #0077cc;
-  --escuro: #008de5;
+  --escuro: #005f99;
 
   --claro: #818080;
   --texto: #fefefe;
@@ -440,3 +440,79 @@ box-sizing: border-box;
 }
 
 
+/* -------------------------- */
+/* Finalizar pagamento */
+.ultms{
+background-color: #0098e3;
+display: flex;
+    flex-direction: column;
+    min-height: 1000vh; 
+    margin: 0;
+}
+
+
+
+/* .sistemanavegacao {
+  background-color: var(--claro);
+  width: 60%;
+
+  display: flex;
+  justify-content: space-evenly;
+  */
+
+.sistemanavegacao0{
+position: absolute;
+right: 1%;
+}
+
+.supBarra{
+background: #0A608B;
+height: 50px;
+}
+
+.comecin{
+color: var(--texto);
+}
+
+.finalDele{
+
+text-align: center;
+margin-top: -600px;
+
+}
+/*
+max-width: 714px;
+padding: 38px 136px 3%;
+margin: auto;
+color:var(--claro);
+
+*/
+.butoes{
+display: flex;
+justify-content: center;
+gap: 15px;
+
+}
+
+.butoesdois{
+text-align: center;
+color: #e5e5e5;
+border: #000000;
+border-radius: 120px;
+border-color: #000000;
+background-color: #39769c;
+}
+
+
+.etapa2{
+margin-top: -550px;
+text-align: center;
+
+}
+
+.input{
+display: flex;
+flex-direction: column;
+margin: 17px;
+width: 50%;
+}
