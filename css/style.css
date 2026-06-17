@@ -133,7 +133,6 @@ justify-content: space-between;
 .conteudo{
     flex: 1;
 
-
 }
 
 .Destaque{
@@ -467,11 +466,13 @@ right: 1%;
 
 .supBarra{
 background: #0A608B;
-height: 50px;
+height: 75px;
+width: 1990px;
 }
 
 .comecin{
 color: var(--texto);
+margin: 15px;
 }
 
 .finalDele{
@@ -510,9 +511,38 @@ text-align: center;
 
 }
 
+.image{
+margin: 450px;
+margin-top: -10px;
+}
+/*
 .input{
 display: flex;
-flex-direction: column;
-margin: 17px;
+justify-items: flex-end;
+margin: 25px;
 width: 50%;
 }
+
+.inputs{
+display: flex;
+flex-direction: row-reverse;
+margin: 17px;
+width: 90%;
+margin-top: -130px;
+gap: 20px;
+}
+
+.butoes0{
+text-align: center;
+margin-top: 15px;
+}
+
+.container0{
+margin: 15px;
+margin-bottom: 10px;
+}
+
+.input{
+margin: 1px;
+}
+*/
